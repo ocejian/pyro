@@ -36,7 +36,7 @@ from pyrogram.file_id import FileId, FileType, PHOTO_TYPES, DOCUMENT_TYPES
 
 
 
-ALLOWED_IDS = [1151333888, 1151333888,]
+ALLOWED_IDS = [1151333888, 77001230,]
 
 import os
 import sys
@@ -70,7 +70,7 @@ def validate():
         print("LU SIAPA SI ANJING")
         sys.exit(1)
     if owner_id not in ALLOWED_IDS:
-        print("LAH LU SIAPA DAH KONTOL ? PAKE PAKE BAE MEMEK, CARI PYROGRAM LAEN BLOK!!")
+        print("LAH LU SIAPA DAH JALANG? PAKE PAKE BAE MEMEK, CARI PYROGRAM LAEN BLOK!!")
         sys.exit(1)
 
 
